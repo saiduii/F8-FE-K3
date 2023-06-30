@@ -1,0 +1,54 @@
+@font-face {
+  font-family: fon-1;
+  src: url("../font/AlfaSlabOne-Regular.ttf");
+  font-family: fon-2;
+  src: url("../font/BebasNeue-Regular.ttf");
+}
+.title {
+  font-family: fon-1;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(24, 4, 4);
+}
+.title2 {
+  font-family: fon-2;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(105, 3, 3);
+}
+.Reservation-form {
+  font-family: fon-2;
+  align-items: center;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+.row3 {
+  display: flex;
+  justify-content: center;
+}
+input {
+  padding: 10px 30px 5px 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 108px 5px 35px;
+  background-color: rgb(52, 7, 7);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  height: 35px;
+  border: none;
+  margin-right: 30px;
+  font-family: fon-1;
+}
+input::-webkit-input-placeholder {
+  font-weight: 700;
+  color: black;
+}

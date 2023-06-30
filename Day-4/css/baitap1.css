@@ -1,0 +1,28 @@
+.container {
+  background-color: rgba(22, 45, 131, 0.773);
+  border-radius: 10px;
+  padding: 10px 20px 20px 5px;
+}
+.container:hover input::-webkit-input-placeholder {
+  color: #ebb214;
+  
+}
+.container:hover input {
+  background-color: #ddd;
+}
+.container:hover button {
+  background-color: #fff;
+  border: none;
+}
+.input {
+  padding: 5px 10px 5px 20px;
+}
+.button {
+  padding: 5px 15px 5px 15px;
+  background-color: #ffff00;
+  border: 1px solid yellow;
+  border-radius: 3px;
+}
+.specialText {
+  color: #ebb214;
+}
