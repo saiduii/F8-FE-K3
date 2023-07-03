@@ -1,0 +1,78 @@
+.content {
+  padding-left: 40px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.flex {
+  display: flex;
+  border: 1px solid #ccc;
+  width: 548px;
+  padding: 10px;
+  width: 530px;
+  position: relative;
+}
+button {
+  border: none;
+  background-color: #cf630b;
+  color: white;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+}
+.wrapper {
+  max-width: 600px;
+}
+@font-face {
+  font-family: "font-1";
+  src: url(../font/Lobster-Regular.ttf);
+  font-family: "font-2";
+  src: url(../font/Lato-Italic.ttf);
+}
+.color-red {
+  color: red;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "font-1";
+}
+.subtitle {
+  color: #e2e2e7;
+  margin-bottom: 10px;
+  font-family: "font-2";
+}
+.input {
+  background-color: white;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  padding: 10px 0px;
+  background-position-x: left;
+  width: 500px;
+  margin-bottom: 20px;
+  padding-left: 45px;
+}
+.input-1 {
+  background-image: url(../image/user.png);
+}
+.input-2 {
+  background-image: url(../image/email-white.png);
+}
+.input-3 {
+  background-image: url(../image/phone.png);
+}
+.input-4 {
+  background-image: url(../image/subject.png);
+}
+.input-5 {
+  background-image: url(../image/tera.png);
+}
+.w-select {
+  width: 548px;
+}
+
