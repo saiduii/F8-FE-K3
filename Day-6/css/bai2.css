@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../font/Roboto-Italic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Roboto";
+  background: #ebf5fe;
+}
+.container {
+  padding: 15px 10px;
+  padding-bottom: 100px;
+}
+.container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+.container .box-container .service {
+  box-shadow: 0 3px 10px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 20px;
+}
+.container .box-container .service h2 {
+  padding: 10px 0;
+  background-color: #fff;
+}
+.container .box-container .service p {
+  color: #666666;
+  font-size: 20px;
+  padding: 10px 0;
+  line-height: 1.8;
+  background-color: #fff;
+}
+.container .box-container .service i {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-right: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.container .box-container .service .btn {
+  background-color: #fff;
+  font-size: 15px;
+}
+.container .box-container .service:hover {
+  border: 1.5px solid red;
+}

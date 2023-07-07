@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Nunito";
+  src: url(../font/Nunito-Italic-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Nunito";
+  text-decoration: none;
+}
+body {
+  background-image: url(../login-bg2.jpg);
+}
+.form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 900px;
+  height: 500px;
+  margin: 60px auto 0;
+}
+.form .contact-form {
+  width: 40%;
+  background-color: #ff574d;
+  padding: 90px 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  color: #fff;
+}
+.form .contact-form h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.form .login-form h2 span {
+  color: #ff574d;
+}
+.form .contact-form .btn {
+  margin: 10px 0;
+  padding: 5px 30px;
+  background: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.contact-form .icon a {
+  display: inline-block;
+  background: #b91209;
+  padding: 10px;
+  margin: 5px 10px;
+  color: #fff;
+}
+.login-form {
+  width: 60%;
+  height: 500px;
+  background-color: #fff;
+  padding: 50px 30px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  color: #717171;
+}
+.login-form > input {
+  display: block;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 90%;
+}
+.login-form .box {
+  display: flex;
+  margin: 10px;
+}
+.login-form .box input {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.login-form .box p {
+  margin-left: 185px;
+}
+button {
+  width: 95%;
+  padding: 10px 40px;
+  background: #ff574d;
+  border: none;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
