@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.head {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.head .note {
+  margin-top: 20px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  width: 950px;
+  gap: 15px;
+  margin-left: 300px;
+  margin-top: 25px;
+}
+.item {
+  width: 300px;
+  text-align: center;
+}
+.image {
+  height: 100px;
+  width: 300px;
+}
+.content {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.read {
+  padding: 10px 20px;
+  display: inline;
+  background: #4958ae;
+}
+a {
+  color: #fff;
+}
