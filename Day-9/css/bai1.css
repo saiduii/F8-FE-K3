@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter";
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../font/Inter-VariableFont_slnt\wght.ttf);
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../font/SpaceGrotesk-VariableFont_wght.ttf);
+}
+body {
+  display: flex;
+  align-items: flex-start;
+}
+img {
+  position: relative;
+  top: -670px;
+  right: -575px;
+  width: 500px;
+}
+.container {
+  width: 1px;
+  height: 100vh;
+  margin: 30px 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: #ddd;
+}
+.line {
+  width: 10px;
+  height: 10px;
+  border-radius: 70%;
+  background-color: rgb(9, 9, 73);
+  border: 5px solid rgb(35, 114, 145);
+  outline: 10px solid #fff;
+}
+h2 {
+  font-family: "Space Grotesk";
+}
+.content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  text-align: right;
+}
+p {
+  line-height: 1.5;
+  color: #988c8c;
+}
+a {
+  display: block;
+  border-radius: 99px;
+  color: #342e2e;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: #eee;
+}
+
+.content:hover a {
+  background-color: rgb(82, 35, 47);
+  color: #fff;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+}
+
+.since {
+  width: 300px;
+  color: #666;
+  font-size: 15px;
+}
+
+.item:hover .content {
+  transform: translateX(calc(100% + 60px));
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item:hover .since {
+  transform: translateX(calc(-100% - 60px));
+  text-align: right;
+}
