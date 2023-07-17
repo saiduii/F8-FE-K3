@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 1025px;
+}
+.list {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.item {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 0 1px rgb(113, 106, 106);
+}
+i {
+  font-size: 40px;
+  color: orange;
+}
+h2 {
+  margin-top: 15px;
+}
+p {
+  margin-top: 15px;
+}
+a {
+  display: block;
+  margin-top: 15px;
+  opacity: 0;
+}
+span {
+  color: #fff;
+  font-weight: 400;
+}
+.fa-arrow-right {
+  font-size: 20px;
+  color: #ffff;
+  border: 1px solid #eee;
+  border-radius: 50%;
+}
+.fa-arrow-right:hover {
+  background: rgb(21, 20, 20);
+}
+.item:hover {
+  top: 30px;
+  color: #fff;
+}
+.item:hover a {
+  bottom: 50px;
+  opacity: 1;
+}
+.item:hover {
+  background-image: url(../img/1412.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.item:hover .fa-house-user {
+  opacity: 0;
+}
+.item:hover .fa-briefcase {
+  opacity: 0;
+}
+.item:hover .fa-gavel {
+  opacity: 0;
+}
+.item:hover .fa-handshake {
+  opacity: 0;
+}
+.item:hover .fa-scale-balanced {
+  opacity: 0;
+}
+.item:hover .fa-handcuffs {
+  opacity: 0;
+}
