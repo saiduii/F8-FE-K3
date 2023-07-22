@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: system-ui;
+}
+body {
+  background: rgb(107, 143, 219);
+  width: 500px;
+}
+a {
+  font-size: 20px;
+  color: #3188c3;
+}
+i {
+  font-size: 30px;
+  color: #3188c3;
+}
+.nav-list {
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+  transition: all 0.6s ease;
+}
+.nav-list ul li {
+  padding: 10px 60px;
+}
+.nav-list ul li a {
+  font-weight: 700;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 99px 0;
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.fa-bars {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all 1s ease;
+}
+.fa-arrow-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.icon:hover {
+  background: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  translate: -50% -50%;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.4s linear;
+}
+input:checked ~ .overlay {
+  width: calc(3500px);
+  height: calc(3500px);
+}
+.nav-list ul {
+  opacity: 0;
+}
+#bars:checked ~ .nav-list ul {
+  opacity: 1;
+}
+.nav-list ul li:hover {
+  background: #ccc;
+}
+.nav-list ul li a:hover {
+  color: black;
+}
+
+input:checked ~ .fa-bars {
+  border-radius: 99px;
+  transform: rotateZ(360deg);
+}
+input:checked ~ .fa-bars {
+  opacity: 0;
+}
+input:checked ~ .fa-arrow-left {
+  opacity: 1;
+  visibility: visible;
+}
+
+.content {
+  top: 90px;
+  left: 980px;
+  position: relative;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin: 20px;
+  padding: 0px 40px 0px;
+  color: #fff;
+}
+
+.content span {
+  color: #fff;
+  font-size: 25px;
+  padding: 0 122px;
+  position: relative;
+  font-weight: 200;
+}
+
+.content span::before {
+  content: "inspired by";
+  font-size: 15px;
+  top: 11px;
+  left: 45px;
+  position: absolute;
+}
