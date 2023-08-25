@@ -19,9 +19,9 @@ var data = [
   },
 ];
 
-const item = document.getElementById("list-item");
+var item = document.getElementById("list-item");
 
-const wrapper = data.map(
+var wrapper = data.map(
   (value) =>
     `<div class="item">
         <img src="${value.image}"> 
