@@ -15,6 +15,7 @@
 
   .counter-list {
     .counter-item {
+      position: relative;
       background: #fff;
       box-shadow: -5.83333px 8.33333px 72.5px 0px rgba(54, 54, 54, 0.12);
       padding: 33.33px;
@@ -37,6 +38,23 @@
     }
 
     [class^="col-"] {
+      &:nth-child(1) {
+        .counter-item {
+          &::before {
+            content: "";
+            display: block;
+            width: 235px;
+            height: 235px;
+            background: #dcffca;
+            position: absolute;
+            border-radius: 50%;
+            top: 0;
+            left: 0;
+            translate: -50% -50%;
+            z-index: -1;
+          }
+        }
+      }
       &:nth-child(2) {
         .counter-item {
           padding-top: 60.83px;
@@ -44,6 +62,24 @@
           @include center(89%);
           .counter-icon {
             background: #f2ffec;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .counter-item {
+          &::after {
+            content: "";
+            display: block;
+            width: 235px;
+            height: 235px;
+            background: #ffd5bd;
+            position: absolute;
+            border-radius: 50%;
+            bottom: 0;
+            right: 0;
+            translate: 50% calc(50% + 27px);
+            z-index: -1;
           }
         }
       }
