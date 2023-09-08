@@ -54,3 +54,13 @@ var categories = [
     ],
   },
 ];
+var select = document.getElementById("select-category");
+function Add(options, prefix) {
+  for (var values of options) {
+    var option = document.createElement("option");
+    option.value = values.id;
+    option.innerHTML = prefix + values.name;
+    select.appendChild(option);
+  }
+}
+Add(categories, "");
