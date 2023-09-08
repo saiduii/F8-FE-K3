@@ -1,0 +1,22 @@
+@mixin display($name: "") {
+  $selectorNone: ".d-none";
+  $selectorBlock: ".d-block";
+
+  @if ($name != "") {
+    $selectorNone: ".d-" + $name + "-none";
+    $selectorBlock: ".d-" + $name + "-block";
+  }
+
+  #{$selectorNone} {
+    display: none;
+  }
+
+  #{$selectorNone} {
+    display: block;
+  }
+}
+
+@mixin center($width, $spacer: 0) {
+  max-width: $width;
+  margin: $spacer auto;
+}
