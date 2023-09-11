@@ -17,3 +17,5 @@ function readNumber(num) {
   let result = "";
   let parts = [];
 }
+
+// Bài này em chưa làm được ạ :(((
