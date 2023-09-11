@@ -3,48 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <title>BurgerHouse</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="container">
-        <a href="#" class="logo">
-          <img src="./img/logo.png" alt="" />
-        </a>
-        <div class="menu">
-          <div class="mb-contact">
-            <img src="./img/vespa.png" alt="" />
-            <span>Express Delivery +1 234 567 890</span>
+        <div class="lv1">
+          <div class="header-logo">
+            <a href="#"><img src="./img/logo.png" alt="" /></a>
           </div>
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </nav>
+          <!--End Logo-->
+          <div class="header-nav">
+            <div class="telephone">
+              <img src="./img/vespa.png" alt="" />
+              <span>Express Delivery +1 234 567 890</span>
+            </div>
+            <nav class="menu">
+              <ul>
+                <li>HOME</li>
+                <li>MENU</li>
+                <li>OUR STORY</li>
+                <li>CONTACT US</li>
+              </ul>
+            </nav>
+            <!--End nav-->
+          </div>
+          <!--End Header-nav-->
         </div>
-        <label for="mb-menu" class="mb-menu-icon">
-          <i class="fa-solid fa-bars"></i>
-        </label>
       </div>
-      <nav class="mb-menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Our Story</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
+    </header>
+
+    <section class="banner">
+      <div class="container">
+        <div class="lv2">
+          <div class="heading">
+            <span>It is a good time for the great taste of burgers</span>
+            <h1>BURGER <span>WEEK</span></h1>
+          </div>
+          <figure>
+            <img src="./img/banner-img.png" alt="" />
+            <figcaption>
+              <span class="price">$5</span>.49
+              <span class="only">only</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
