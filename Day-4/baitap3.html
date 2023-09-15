@@ -4,50 +4,220 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bài 3</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/baitap3.css" />
   </head>
   <body>
     <div class="container">
-      <h1 class="center">Best Seller</h1>
-      <div class="menu">
-        <div class="nav">Skincare</div>
-        <div class="nav">Haircare</div>
-        <div class="nav">Cosmetics</div>
-        <div class="nav">Fragrance</div>
-        <div class="nav">Makeup</div>
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="item">
-        <div class="img img1"></div>
-        <img src="./img/star.jpg" alt="" />
-        <span>Casual Shirt With Ruffle Hem</span>
-        <p><b>$122.00</b></p>
-      </div>
-      <div class="item">
-        <div class="img img2"></div>
-        <img src="./img/star.jpg" alt="" />
-        <span>Casual Shirt With Ruffle Hem</span>
-        <p><b>$122.00</b></p>
-      </div>
-      <div class="item">
-        <div class="img img3"></div>
-        <img src="./img/star.jpg" alt="" />
-        <span>Casual Shirt With Ruffle Hem</span>
-        <p><b>$122.00</b></p>
-      </div>
-      <div class="item">
-        <div class="img img4"></div>
-        <img src="./img/star.jpg" alt="" />
-        <span>Casual Shirt With Ruffle Hem</span>
-        <p><b>$122.00</b></p>
-      </div>
+      <h1>Best Seller</h1>
+      <input type="radio" id="skincare" name="tab" checked />
+      <input type="radio" id="haircare" name="tab" />
+      <input type="radio" id="cosmetics" name="tab" />
+      <input type="radio" id="fragrance" name="tab" />
+      <input type="radio" id="makeup" name="tab" />
 
-      <div class="item">
-        <div class="img img5"></div>
-        <img src="./img/star.jpg" alt="" />
-        <span>Casual Shirt With Ruffle Hem</span>
-        <p><b>$122.00</b></p>
+      <nav>
+        <ul class="info-list">
+          <li>
+            <label for=""><h2>skincare</h2></label>
+          </li>
+          <li>
+            <label for=""><h2>haircare</h2></label>
+          </li>
+          <li>
+            <label for=""><h2>cosmetics</h2></label>
+          </li>
+          <li>
+            <label for=""><h2>fragrance</h2></label>
+          </li>
+          <li>
+            <label for=""><h2>makeup</h2></label>
+          </li>
+        </ul>
+      </nav>
+      <!--End Nav-->
+
+      <div class="product">
+        <ul class="list-item">
+          <li class="item">
+            <div class="thumb">
+              <img src="./img/Box.jpg" alt="" />
+              <img src="./img/chair.jpg" alt="" />
+              <div class="actions">
+                <div class="icons">
+                  <div class="favorite-icon">
+                    <i class="fa-regular fa-heart" style="color: #ffffff"></i>
+                  </div>
+                  <div class="swap-icon">
+                    <i
+                      class="fa-solid fa-right-left"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <div class="see-icon">
+                    <i class="fa-solid fa-eye" style="color: #ffffff"></i>
+                  </div>
+                </div>
+                <a href="#!" class="add-to-cart">Add To Cart</a>
+              </div>
+            </div>
+            <div class="item-info">
+              <div class="rate">
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+              </div>
+              <h3 class="item-name">Lorem ipsum dolor sit amet.</h3>
+              <span class="price">$122.00</span>
+            </div>
+          </li>
+          <!--End li-->
+          <li>
+            <div class="thumb">
+              <img src="./img/Box.jpg" alt="" />
+              <img src="./img/chair.jpg" alt="" />
+              <div class="actions">
+                <div class="icons">
+                  <div class="favorite-icon">
+                    <i class="fa-regular fa-heart" style="color: #ffffff"></i>
+                  </div>
+                  <div class="swap-icon">
+                    <i
+                      class="fa-solid fa-right-left"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <div class="see-icon">
+                    <i class="fa-solid fa-eye" style="color: #ffffff"></i>
+                  </div>
+                </div>
+                <a href="#!" class="add-to-cart">Add To Cart</a>
+              </div>
+            </div>
+            <div class="item-info">
+              <div class="rate">
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+              </div>
+              <h3 class="item-name">Lorem ipsum dolor sit amet.</h3>
+              <span class="price">$122.00</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumb">
+              <img src="./img/Box.jpg" alt="" />
+              <img src="./img/chair.jpg" alt="" />
+              <div class="actions">
+                <div class="icons">
+                  <div class="favorite-icon">
+                    <i class="fa-regular fa-heart" style="color: #ffffff"></i>
+                  </div>
+                  <div class="swap-icon">
+                    <i
+                      class="fa-solid fa-right-left"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <div class="see-icon">
+                    <i class="fa-solid fa-eye" style="color: #ffffff"></i>
+                  </div>
+                </div>
+                <a href="#!" class="add-to-cart">Add To Cart</a>
+              </div>
+            </div>
+            <div class="item-info">
+              <div class="rate">
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+              </div>
+              <h3 class="item-name">Lorem ipsum dolor sit amet.</h3>
+              <span class="price">$122.00</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumb">
+              <img src="./img/Box.jpg" alt="" />
+              <img src="./img/chair.jpg" alt="" />
+              <div class="actions">
+                <div class="icons">
+                  <div class="favorite-icon">
+                    <i class="fa-regular fa-heart" style="color: #ffffff"></i>
+                  </div>
+                  <div class="swap-icon">
+                    <i
+                      class="fa-solid fa-right-left"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <div class="see-icon">
+                    <i class="fa-solid fa-eye" style="color: #ffffff"></i>
+                  </div>
+                </div>
+                <a href="#!" class="add-to-cart">Add To Cart</a>
+              </div>
+            </div>
+            <div class="item-info">
+              <div class="rate">
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+              </div>
+              <h3 class="item-name">Lorem ipsum dolor sit amet.</h3>
+              <span class="price">$122.00</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumb">
+              <img src="./img/Box.jpg" alt="" />
+              <img src="./img/chair.jpg" alt="" />
+              <div class="actions">
+                <div class="icons">
+                  <div class="favorite-icon">
+                    <i class="fa-regular fa-heart" style="color: #ffffff"></i>
+                  </div>
+                  <div class="swap-icon">
+                    <i
+                      class="fa-solid fa-right-left"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <div class="see-icon">
+                    <i class="fa-solid fa-eye" style="color: #ffffff"></i>
+                  </div>
+                </div>
+                <a href="#!" class="add-to-cart">Add To Cart</a>
+              </div>
+            </div>
+            <div class="item-info">
+              <div class="rate">
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+                <i class="fa-solid fa-star" style="color: #fffb00"></i>
+              </div>
+              <h3 class="item-name">Lorem ipsum dolor sit amet.</h3>
+              <span class="price">$122.00</span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </body>

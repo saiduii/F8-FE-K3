@@ -1,71 +1,26 @@
-.menu {
-  display: flex;
-  justify-content: center;
-}
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav {
-  background-color: rgba(157, 150, 150, 0.823);
-  padding: 10px 30px 10px 30px;
-}
-.nav:hover{
-    background-color: rgb(200, 200, 226);
-}
-.img{
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-}
-.img1{
-    background-image: url('../img/250PSI.jpg');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-.img2{
-    background-image: url('../img/Box.jpg');
+.container {
+  width: 900px;
+  margin: 50px auto;
+  text-align: center;
 }
-.img3{
-    background-image: url('../img/chair.jpg');
+h1 {
+  font-size: 34px;
 }
-.img4{
-    background-image: url('../img/curt.jpg');
-}
-.img5{
-    background-image: url('../img/smartKey.jpg');
-}
-.img1:hover{
-    background-image: url('../img/wrench.jpg');
-}
-
-.img2:hover{
-    background-image: url('../img/phone.jpg');
-}
-.img3:hover{
-    background-image: url('../img/gripe.jpg');
-}
-.img4:hover{
-    background-image: url('../img/Box.jpg');
-}
-.img5:hover{
-    background-image: url('../img/250PSI.jpg');
-}
-.img-container {
+.info-list {
   display: flex;
+  gap: 3px;
   justify-content: center;
-  padding-top: 20px;
 }
-span{
-    padding-left: 60px;
-}
-img{
-  width: 150px;
-  display: flex;
-  align-items: center;
-  padding-left: 78px;
-}
-
-p{
-    padding-left: 130px;
+.info-list li {
+  display: block;
+  border: 1px solid;
+  padding: 10px 20px;
+  background: rgb(128, 107, 125);
 }

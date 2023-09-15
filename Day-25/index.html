@@ -4,9 +4,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <link rel="stylesheet" href="index.css" />
   <body>
+    <button class="login-btn" id="loginBlockBtn">Đăng nhập</button>
+    <div class="overlay" hidden></div>
+    <div class="block d-none" id="blockForm">
+      <div class="row">
+        <button class="btn active" id="btnLogin">Đăng nhập</button>
+        <button class="btn" id="btnRegister">Đăng ký</button>
+      </div>
+      <div class="login-form" id="loginForm">
+        <div class="container">
+          <span class="sub">với các tài khoản mạng xã hội</span>
+          <div class="images">
+            <img src="./img/facebook.png" alt="" />
+            <img src="./img/google.png" alt="" />
+          </div>
+          <span class="other">hoặc</span>
+        </div>
+        <!--heading-->
+
+        <form action="" id="formLogin">
+          <div class="form-group">
+            <label for=""
+              ><p class="text-1">Email</p>
+              <div>
+                <input
+                  type="text"
+                  name="email"
+                  id="inputEmailLogin"
+                  placeholder="Email"
+                />
+                <p class="error" id="emailLoginErr"></p>
+              </div>
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="" class="password-login"
+              ><p class="text-1">Mật Khẩu</p>
+              <div>
+                <input
+                  type="password"
+                  name="password"
+                  id="inputPasswordLogin"
+                  placeholder="Mật khẩu "
+                />
+                <p class="error" id="passLoginErr"></p>
+
+                <label for="" class="eye-slash" id="showPasswordLogin">
+                  <i class="fa-solid fa-eye-slash"></i>
+                </label>
+              </div>
+            </label>
+          </div>
+          <div class="forgot">Quên mật khẩu?</div>
+          <button class="submit-btn">Đăng nhập</button>
+        </form>
+      </div>
+      <!--End.form-login-->
+      <div class="register-form d-none" id="registerForm">
+        <span class="finish"
+          >Hoàn thành đăng ký, và bắt đầu trải nghiệm ngay!</span
+        >
+        <form action="" id="formRegister">
+          <div class="form-group">
+            <label for=""
+              ><p class="text-1">Họ và tên</p>
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  id="inputNameRegister"
+                  placeholder="Họ và tên"
+                />
+                <p class="error" id="nameRegisterErr"></p>
+              </div>
+            </label>
+          </div>
+          <div class="form-group">
+            <label for=""
+              ><p class="text-1">Email</p>
+              <div>
+                <input
+                  type="text"
+                  name="email"
+                  id="inputEmailRegister"
+                  placeholder="Email"
+                />
+                <p class="error" id="emailRegisterErr"></p>
+              </div>
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="" class="password-login"
+              ><p class="text-1">Mật khẩu</p>
+              <div>
+                <input
+                  type="password"
+                  name="password"
+                  id="inputPasswordRegister"
+                  placeholder="Mật khẩu"
+                />
+                <p class="error" id="passwordRegisterErr"></p>
+
+                <label for="" class="eye-slash">
+                  <i class="fa-solid fa-eye-slash"></i>
+                </label>
+              </div>
+            </label>
+          </div>
+          <div class="rules">
+            <p>
+              Bằng cách đăng ký tài khoản, bạn cũng đồng thời chấp nhận<br />mọi
+              <a href="#">điều kiện về qui định và chính sách của Dân trí</a>
+            </p>
+          </div>
+          <button class="submit-btn">Đăng nhập</button>
+        </form>
+        <!--End.form-register--->
+      </div>
+    </div>
+
     <script src="./index.js"></script>
   </body>
 </html>
