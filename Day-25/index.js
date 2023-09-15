@@ -17,6 +17,7 @@ var inputNameRegister = document.querySelector("#inputNameRegister");
 var inputEmailRegister = document.querySelector("#inputEmailRegister");
 var inputPasswordRegister = document.querySelector("#inputPasswordRegister");
 var showPasswordLogin = document.querySelector("#showPasswordLogin");
+var showPasswordRegister = document.querySelector("#showPasswordRegister");
 
 var arrayInputLogin = [inputEmailLogin, inputPasswordLogin];
 var arrayInputRegister = [
