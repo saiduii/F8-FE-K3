@@ -85,6 +85,7 @@ input,
 .d-none {
   display: none;
 }
+
 .error {
   color: red;
   text-align: left;
