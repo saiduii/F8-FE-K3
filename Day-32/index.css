@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+.container .content {
+  background: white;
+  color: black;
+}
+.container .controls .btn-control button {
+  background: white;
+  color: black;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 85%;
+  margin: 30px auto;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+}
+.container .header h4 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.container .controls {
+  border-top: 2px solid white;
+}
+.container .controls {
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.container .controls .main-control {
+  display: flex;
+  column-gap: 10px;
+  position: relative;
+}
+.container .controls .main-control .btn-file {
+  width: 60px;
+  height: 35px;
+  background: #0d6efd;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.container .controls .main-control input {
+  width: 180px;
+  height: 35px;
+  padding: 10px;
+}
+.container .controls .main-control .menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  top: 40px;
+  background: white;
+  padding: 10px 0;
+}
+.show {
+  display: flex !important;
+}
+.none {
+  display: none;
+}
+.container .controls .main-control .menu button {
+  height: 30px;
+  background: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.container .controls .main-control .menu button:hover {
+  background: rgba(128, 128, 128, 0.1);
+}
+.container .controls .btn-control {
+  display: flex;
+  column-gap: 10px;
+}
+.container .controls .btn-control button {
+  width: 50px;
+  height: 35px;
+  border: 0;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+.container .controls .btn-control .bold {
+  font-weight: bold;
+}
+.container .controls .btn-control .underline {
+  text-decoration: underline;
+}
+.container .controls .btn-control .italic {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.container .controls .btn-control button.active {
+  background: #0d6efd;
+  color: white;
+}
+.container .controls .btn-control input {
+  width: 50px;
+  height: 35px;
+}
+.container .content {
+  width: 100%;
+  min-height: 300px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  outline: none;
+  text-decoration: none;
+}
+.container .counter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 15px;
+}
