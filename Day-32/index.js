@@ -5,7 +5,7 @@ var contentBox = document.querySelector(".content");
 var bold = document.querySelector(".bold");
 var underline = document.querySelector(".underline");
 var italic = document.querySelector(".italic");
-var background = document.querySelector(".background");
+var color = document.querySelector(".background");
 var newFile = document.querySelector(".new-file");
 var saveTxt = document.querySelector(".save-txt");
 var savePdf = document.querySelector(".save-pdf");
@@ -35,10 +35,6 @@ italic.addEventListener("click", function (e) {
     contentBox.style.fontStyle = "italic";
   }
 });
-background.addEventListener("input", function (e) {
-  contentBox.excComma;
-});
-
 // Thêm một file mới
 newFile.addEventListener("click", function () {
   fileName.value = "";

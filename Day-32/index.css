@@ -71,9 +71,6 @@ button {
 .show {
   display: flex !important;
 }
-.none {
-  display: none;
-}
 .container .controls .main-control .menu button {
   height: 30px;
   background: none;
