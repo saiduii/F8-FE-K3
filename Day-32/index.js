@@ -35,11 +35,18 @@ italic.addEventListener("click", function (e) {
     contentBox.style.fontStyle = "italic";
   }
 });
-// Thêm một file mới
-newFile.addEventListener("click", function () {
-  fileName.value = "";
-  contentBox.innerHTML = "";
-});
+
+color
+  .addEventListener("input", function () {
+    var newColor = color.value;
+    document.execCommand("foreColor", false, newColor);
+  })
+
+  // Thêm một file mới
+  .newFile.addEventListener("click", function () {
+    fileName.value = "";
+    contentBox.innerHTML = "";
+  });
 
 //Save file pdf
 savePdf.addEventListener("click", function () {
