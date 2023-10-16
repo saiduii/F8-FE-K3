@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(177, 57, 77); */
+}
+h1 {
+  text-align: center;
+  color: rgb(30, 30, 159);
+}
+.img-wrapper {
+  display: flex;
+  gap: 15px;
+  margin: 5px 5px 5px 10px;
+}
+.img-pic {
+  position: relative;
+  border: 3px solid red;
+  width: 500px;
+  height: 300px;
+}
+.img-original {
+  width: 100%;
+  height: 100%;
+}
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid gray;
+  width: 200px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.img-zoom-result {
+  background-color: teal;
+  width: 500px;
+  height: 300px;
+  /* overflow: hidden; */
+  position: relative;
+}
+.img-copy {
+  position: absolute;
+}

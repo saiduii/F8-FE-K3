@@ -3,9 +3,7 @@ var btn = document.querySelector(".btn");
 var load = 0,
   start = 30,
   bool = false;
-
 var handleCount = function (startTime) {
-  console.log(startTime);
   if (start > 0) {
     window.requestAnimationFrame(handleCount);
   }
