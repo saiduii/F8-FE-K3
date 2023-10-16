@@ -47,3 +47,4 @@ pic.addEventListener("mousemove", function (e) {
   copy.style.top = result.offsetHeight * zoomY + "%";
   console.log(zoomX);
 });
+// Đang bị lỗi zoom

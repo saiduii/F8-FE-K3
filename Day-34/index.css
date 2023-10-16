@@ -37,7 +37,7 @@ h1 {
   background-color: teal;
   width: 500px;
   height: 300px;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
 }
 .img-copy {
