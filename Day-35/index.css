@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.search-box {
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 36px;
+}
+.btn {
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  padding: 15px 30px;
+  background-color: rgb(181, 1, 1);
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: rgb(237, 80, 80);
+}
+
+.action {
+  margin-top: 16px;
+  color: blueviolet;
+}
+.result {
+  margin-top: 20px;
+}

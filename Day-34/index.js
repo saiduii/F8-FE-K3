@@ -12,7 +12,8 @@ copy.style.width =
   (pic.offsetWidth / lens.offsetWidth) * result.offsetWidth + "px";
 copy.style.height =
   (pic.offsetHeight / lens.offsetHeight) * result.offsetHeight + "px";
-console.log(result.height, result.width);
+
+console.log(copy.style.width);
 
 pic.addEventListener("mousemove", function (e) {
   var x = e.clientX - pic.offsetLeft - lens.offsetWidth / 2;
@@ -41,10 +42,11 @@ pic.addEventListener("mousemove", function (e) {
 
   var zoomX = (x / (pic.offsetWidth - lens.offsetWidth)) * 100;
   var zoomY = (y / (pic.offsetHeight - lens.offsetHeight)) * 100;
-  console.log(zoomX, zoomY);
 
-  copy.style.left = result.offsetWidth * zoomX + "%";
-  copy.style.top = result.offsetHeight * zoomY + "%";
-  console.log(zoomX);
+  copy.style.left = -(pic.offsetWidth / 100) * zoomX + "px";
+  copy.style.top = -(pic.offsetHeight / 100) * zoomY + "px";
+
+  console.log(-(copy.offsetWidth / 100) * zoomX);
+  console.log(-(copy.offsetHeight / 100) * zoomY);
 });
 // Đang bị lỗi zoom

@@ -15,6 +15,7 @@ h1 {
 .img-pic {
   position: relative;
   border: 3px solid red;
+  box-sizing: border-box;
   width: 500px;
   height: 300px;
 }
@@ -34,10 +35,9 @@ h1 {
   overflow: hidden;
 }
 .img-zoom-result {
-  background-color: teal;
   width: 500px;
   height: 300px;
-  overflow: hidden;
+  border: 3px solid red;
   position: relative;
 }
 .img-copy {
