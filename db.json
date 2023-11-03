@@ -1,0 +1,49 @@
+{
+  "posts": [
+      {
+        "id": 1,
+        "name": "Duy",
+        "img": "https://picsum.photos/680/386",
+        "title": "Cuộc sống quá khó khăn khi phải sống một mình.",
+        "content": "Theo một cựu chỉ huy quân đội Israel, hệ thống đường hầm của Hamas ở Gaza có thể trở thành bẫy chết chóc đối với lực lượng của Israel nếu tiến vào đây..."
+      },
+      {
+        "id": 1,
+        "name": "Xuân Trường Mai",
+        "img": "https://picsum.photos/680/386",
+        "title": "Đẹp trai không phải là một cái tội.",
+        "content": "Theo một cựu chỉ huy quân đội Israel, hệ thống đường hầm của Hamas ở Gaza có thể trở thành bẫy chết chóc đối với lực lượng của Israel nếu tiến vào đây...."
+      },
+      {
+        "id": 1,
+        "name": "Nguyễn Đại Cương",
+        "img": "https://picsum.photos/680/386",
+        "title": "Cô đơn đến thế mưa rơi lách tách kì cục đợi ai.",
+        "content": "Theo một cựu chỉ huy quân đội Israel, hệ thống đường hầm của Hamas ở Gaza có thể trở thành bẫy chết chóc đối với lực lượng của Israel nếu tiến vào đây...."
+      },
+      {
+        "id": 1,
+        "name": "Mai Xuân An",
+        "img": "https://picsum.photos/680/386",
+        "title": "Chạy ship có giúp chúng ta đủ vốn để làm ăn ?",
+        "content": "Theo một cựu chỉ huy quân đội Israel, hệ thống đường hầm của Hamas ở Gaza có thể trở thành bẫy chết chóc đối với lực lượng của Israel nếu tiến vào đây...."
+      },
+      {
+        "id": 1,
+        "name": "Bùi Tuấn",
+        "img": "https://picsum.photos/680/386",
+        "title": "Nhảy nhiều có lợi cho sức khỏe hay không ? ",
+        "content": "Theo một cựu chỉ huy quân đội Israel, hệ thống đường hầm của Hamas ở Gaza có thể trở thành bẫy chết chóc đối với lực lượng của Israel nếu tiến vào đây...."
+      }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

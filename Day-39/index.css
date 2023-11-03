@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+#container {
+  max-width: 1600px;
+  margin: 50px 60px;
+}
+h1 {
+  margin-left: 52px;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+.blog {
+  margin: 30px 15px;
+  padding: 15px 15px;
+  border: 2px solid rgb(59, 54, 54);
+  border-radius: 15px;
+}
+.title,
+.content {
+  font-size: 1.8rem;
+}
+
+.title {
+  font-weight: 600;
+}
+img {
+  margin: 20px 0;
+}
