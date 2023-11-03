@@ -6,8 +6,12 @@
   text-decoration: none;
 }
 #container {
-  max-width: 1600px;
-  margin: 50px 60px;
+  /* max-width: 1600px;
+  margin: 50px 60px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   margin-left: 52px;
@@ -24,7 +28,9 @@ h1 {
 .content {
   font-size: 1.8rem;
 }
-
+a {
+  color: black;
+}
 .title {
   font-weight: 600;
 }
