@@ -1,5 +1,5 @@
 async function fetchData(limit, offset) {
-  const response = await fetch(`http://localhost:3000/posts`);
+  const response = await fetch(`https://glht6v-8080.csb.app/posts`);
   const data = await response.json();
   //   if (data.code === 200) {
   data.forEach((item) => {
